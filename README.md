@@ -1,5 +1,1 @@
-# lab-conda
-
-Command to run demo.py file:
-
-`python demo.py`
+## End to END Machine LEarning Project 
