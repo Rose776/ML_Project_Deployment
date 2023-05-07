@@ -19,8 +19,3 @@ class CustomException(Exception): #Creating a Custom exception we are inheriting
     def __str__(self): # function use to formate the message in a cutome formate
         return self.error_message
 
-if __name__=="__main__":
-    try:
-        1/0
-    except Exception as error_message:
-        raise CustomException(error_message, sys)
